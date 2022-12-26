@@ -2,10 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* Color Palette */
+  --col1: #fffdfaff;
+  --col2: #f7717eff;
+  --col3: #6d435aff;
+  --col4: #352d39ff;
 }
 
 body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--col1);
   font-family: 'Hind Madurai', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 h1 {

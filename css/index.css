@@ -1,7 +1,108 @@
+body {
+  text-align: center;
+}
+
 #hero {
-  background: var(--col3);
+  height: 67vh;
+  background: var(--col1);
 }
 
 #title {
-  font-size: 4rem;
+  padding: 40px 0;
+  font-size: 5rem;
+  line-height: 90px;
+}
+
+.text {
+  margin: auto;
+  width: 60%;
+  font-size: 1.6rem;
+}
+
+button {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  background-color: var(--bg-col);
+  border: none;
+  height: 55px;
+  width: 20%;
+  margin: 40px 30px 0 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.7s ease 0s, opacity 0.3s ease 0s;
+}
+
+button:hover,
+.socials svg:hover {
+  transform: scale(1.1);
+}
+
+button:active,
+.socials svg:active {
+  opacity: 0.7;
+}
+
+.wave {
+  width: 100%;
+  display: block;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 3rem;
+}
+
+#about-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about-card {
+  margin: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.about-card svg {
+  width: 3.6rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 1.1rem;
+  padding: 0 20px;
+  margin: 0 auto 25px auto;
+  width: 70%;
+}
+
+#about button,
+#current-popenstein button {
+  background-color: var(--col1);
+  margin-bottom: 40px;
+}
+
+#join-us {
+  background-color: var(--col2);
+}
+
+#join-us h2 {
+  margin: 0;
+}
+
+.socials {
+  padding: 30px 0;
+}
+
+.socials svg {
+  fill: var(--bg-col);
+  margin: 0 15px;
+  width: 3.5rem;
+  transition: transform 0.7s ease 0s, opacity 0.3s ease 0s;
+}
+
+#current-popenstein {
+  display: none;
 }

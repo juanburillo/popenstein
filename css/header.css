@@ -2,12 +2,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 5%;
+  padding: 30px 5%;
 }
 
 #logo {
   cursor: pointer;
   width: 10rem;
+  transition: transform 0.5s, opacity 0.3s;
+}
+
+#logo:hover {
+  transform: scale(1.1);
 }
 
 nav ul {
@@ -22,18 +27,30 @@ nav ul li {
 nav ul li a {
   transition: all 0.3s ease 0s;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 nav ul li a:hover {
-  color: var(--col2);
+  opacity: 0.7;
 }
 
 #header-icons {
   display: flex;
+  align-items: center;
 }
 
-#header-icons img {
+#header-icons svg {
   cursor: pointer;
   margin: 0 10px;
+  transition: all 0.3s ease 0s;
+}
+
+#logo:active,
+#header-icons svg:hover {
+  opacity: 0.7;
+}
+
+nav ul li a:active,
+#header-icons svg:active {
+  opacity: 0.5;
 }

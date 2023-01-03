@@ -7,11 +7,12 @@ footer {
   justify-content: space-around;
 }
 
-footer a {
-  color: var(--bg-col);
+#footer-bubble-logo {
+  width: 33px;
+  margin-right: 5px;
 }
 
-#logo-copyright svg {
+#logo-copyright-location svg {
   stroke: var(--bg-col);
   width: 1rem;
 }
@@ -29,6 +30,10 @@ footer a {
 h6 {
   font-family: 'Prompt', sans-serif;
   font-size: 1.3rem;
+}
+
+footer a {
+  color: var(--bg-col);
 }
 
 #links a {

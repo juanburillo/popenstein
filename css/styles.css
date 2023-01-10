@@ -1,3 +1,5 @@
+/* 1440px Display */
+
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-.anchor {
+.invisible {
   display: none;
 }
 
@@ -80,4 +82,36 @@ a {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+}
+
+/* RESPONSIVE DESIGN */
+
+/* 4K Display < 2560px */
+@media screen and (max-width: 2560px) {
+
+}
+
+/* Laptop < 1024px */
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* Tablet < 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Mobile L < 425px */
+@media screen and (max-width: 425px) {
+  
+}
+
+/* Mobile M < 375px */
+@media screen and (max-width: 375px) {
+
+}
+
+/* Mobile S < 320px */
+@media screen and (max-width: 320px) {
+
 }

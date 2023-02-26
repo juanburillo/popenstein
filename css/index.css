@@ -3,14 +3,14 @@
 }
 
 #title {
-  padding: 40px 0;
+  padding: 40px 30px;
   font-size: 5rem;
-  line-height: 90px;
+  line-height: 113%;
 }
 
 .text {
   margin: auto;
-  width: 60%;
+  width: 80%;
   font-size: 1.6rem;
 }
 
@@ -82,4 +82,26 @@
 
 #current-popenstein {
   display: none;
+}
+
+/* RESPONSIVE DESIGN - Default: 1440px*/
+
+@media screen and (max-width: 1120px) {
+  .about-card {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #about-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #title {
+    font-size: 8.5vw;
+  }
+
+  .text {
+    font-size: 2.7vw;
+  }
 }

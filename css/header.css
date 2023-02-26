@@ -45,6 +45,10 @@ nav ul li a:hover {
   transition: all 0.3s ease 0s;
 }
 
+#hamburguer-menu {
+  display: none;
+}
+
 #logo:active,
 #header-icons svg:hover {
   opacity: 0.7;
@@ -53,4 +57,16 @@ nav ul li a:hover {
 nav ul li a:active,
 #header-icons svg:active {
   opacity: 0.5;
+}
+
+/* RESPONSIVE DESIGN - Default: 1440px*/
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #hamburguer-menu {
+    display: inline;
+  }
 }

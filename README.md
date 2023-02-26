@@ -1,1 +1,0 @@
-# Popenstein Guide
